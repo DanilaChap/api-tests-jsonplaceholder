@@ -19,7 +19,7 @@ Automated tests for the REST API at https://jsonplaceholder.typicode.com
 ## How to run
 1. Create and activate a virtual environment:
 
-    ```bash
+   ```bash
    python3 -m venv .venv
    source .venv/bin/activate
    ```
@@ -33,3 +33,4 @@ Automated tests for the REST API at https://jsonplaceholder.typicode.com
    ```bash
    python -m pytest -v
    ```
+   
