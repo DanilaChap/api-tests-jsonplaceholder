@@ -33,5 +33,5 @@ def test_delete_post(base_url):
         f"{base_url}/posts/1",
         timeout=10,
     )
-    assert response.status_code == 200
+    assert response.status_code == 204
     assert response.json() == {}
