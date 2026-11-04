@@ -33,4 +33,3 @@ Automated tests for the REST API at https://jsonplaceholder.typicode.com
    ```bash
    python -m pytest -v
    ```
-   
